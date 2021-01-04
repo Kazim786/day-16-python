@@ -24,7 +24,7 @@
 
 # my_screen.exitonclick() #object method
 
-from prettytable import PrettyTable
+from prettytable import PrettyTable, MARKDOWN #MARKDOWN is style in the prettytable class. So importing this 
 
 table1 = PrettyTable()
 print(table1)
@@ -42,3 +42,6 @@ print(table)
 table.add_column("Population", ["12000", "13000", "1472", "78634", "66666"])
 
 print(table)
+
+#setting table style
+table.set_style(MARKDOWN)
