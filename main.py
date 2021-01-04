@@ -14,4 +14,6 @@ timmy = Turtle()
 
 my_screen = Screen()
 
-print(my_screen.canvheight)
+print(my_screen.canvheight) #object attribute
+
+my_screen.exitonclick() #object method
