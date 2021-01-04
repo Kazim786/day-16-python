@@ -16,6 +16,8 @@ timmy.shape("turtle") #Another object function for the turtle class
 
 timmy.color("green")
 
+turtle.forward(100)
+
 my_screen = Screen()
 
 print(my_screen.canvheight) #object attribute
