@@ -16,7 +16,7 @@ timmy.shape("turtle") #Another object function for the turtle class
 
 timmy.color("green")
 
-turtle.forward(100)
+timmy.forward(100)
 
 my_screen = Screen()
 
