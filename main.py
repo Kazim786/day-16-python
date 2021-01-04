@@ -9,8 +9,10 @@
 
 from turtle import Turtle, Screen
 
-timmy = Turtle()
+timmy = Turtle() 
 # print(timmy)
+
+timmy.shape("turtle") #Another object function for the turtle class
 
 my_screen = Screen()
 
