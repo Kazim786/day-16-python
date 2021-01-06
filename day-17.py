@@ -8,6 +8,8 @@ class User:
     def __init__(self, username, id):
         self.username = username
         self.id = id
+        #Default value:
+        self.followers = 0
 
 
 #Now you have to pass the username and id info into the parameters of the User() class. This will set the values for the objects
